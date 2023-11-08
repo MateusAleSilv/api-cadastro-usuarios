@@ -30,12 +30,11 @@ Siga as etapas abaixo para executar o aplicativo:
 
     Usando Maven:
 
-    ```shell
-    ./mvnw spring-boot:run
+        ./mvnw spring-boot:run
 
-Usando Gradle:
+    Usando Gradle:
 
-    ./gradlew bootRun
+        ./gradlew bootRun
 
 A API estará disponível em http://localhost:8080.
 
