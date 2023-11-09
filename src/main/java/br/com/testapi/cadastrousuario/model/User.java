@@ -25,7 +25,7 @@ public class User {
     private Long id;
 
     @NotBlank(message = "O campo 'nome' é obrigatório.")
-    @Pattern(regexp = "^[a-zA-Z ]+$", message = "O campo 'nome' não deve conter símbolos.")
+    @Pattern(regexp = "^[\\p{L} ]+$", message = "O campo 'nome' não deve conter símbolos.")
     private String nome;
 
     @NotBlank(message = "O campo 'email' é obrigatório.")
